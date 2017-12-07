@@ -32,11 +32,11 @@ config LOGO_VARISCITE_CLUT224
 	default y
 
 config LOGO_CHRIST_CLUT224
-	bool "224-color Variscite Linux logo"
+	bool "224-color Christ Linux logo"
 	default y
 
 config LOGO_SIGMA_CLUT224
-	bool "224-color Variscite Linux logo"
+	bool "224-color Sigma Linux logo"
 	default y
 
 config LOGO_BLACKFIN_VGA16
