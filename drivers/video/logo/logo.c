@@ -82,6 +82,14 @@ const struct linux_logo * __ref fb_find_logo(int depth)
 		/* Variscite Linux logo */
 		logo = &logo_variscite_clut224;
 #endif
+#ifdef CONFIG_LOGO_CHRIST_CLUT224
+		/* Christ Linux logo */
+		logo = &logo_christ_clut224;
+#endif
+#ifdef CONFIG_LOGO_SIGMA_CLUT224
+		/* Sigma Linux logo */
+		logo = &logo_sigma_clut224;
+#endif
 #ifdef CONFIG_LOGO_BLACKFIN_CLUT224
 		/* Blackfin Linux logo */
 		logo = &logo_blackfin_clut224;
